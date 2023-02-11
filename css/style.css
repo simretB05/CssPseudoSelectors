@@ -1,0 +1,35 @@
+header {
+  min-height: 10vh;
+  background-color: lightgreen;
+}
+main {
+  min-height: 80vh;
+  background-color: lightseagreen;
+}
+footer {
+  min-height: 15vh;
+  background-color: lightblue;
+  color: white;
+}
+footer div {
+  width: 40%;
+  background-color: lightslategray;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}
+#btn-holder > btn {
+  background-color: lightgray;
+}
+
+#btn {
+  background-color: lightsalmon;
+  box-shadow: 20px 20px 20px chocolate;
+}
+#btn:active {
+  box-shadow: 0 0 0 white;
+}
+
+#btn:hover {
+  background-color: lightseagreen;
+}
